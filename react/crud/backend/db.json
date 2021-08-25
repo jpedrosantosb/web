@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "João Bastos",
+      "email": "joaobastos@ltda.com.br"
+    },
+    {
+      "id": 2,
+      "name": "Kauan",
+      "email": "kauan_espindolab@google.com"
+    },
+    {
+      "name": "Gabrielle",
+      "email": "gabii.cristine@hotmail.com",
+      "id": 3
+    }
+  ]
+}
