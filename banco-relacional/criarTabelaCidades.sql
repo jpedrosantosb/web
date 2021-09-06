@@ -4,7 +4,8 @@ CREATE TABLE IF NOT EXISTS cidades (
     estado_id int unsigned NOT NULL,
     area DECIMAL(10,2),
     PRIMARY KEY (id),
-    FOREIGN KEY (estado_id) REFERENCES estados (id)
+    FOREIGN KEY (estado_id) REFERENCES estados (id),
+    UNIQUE KEY (nome)
 );
 
 -- CREATE TABLE IF NOT EXISTS teste (
