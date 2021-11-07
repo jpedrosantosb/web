@@ -1,4 +1,4 @@
-const {series} = require('gulp')
+const { series } = require('gulp')
 const gulp = require('gulp')
 const concat = require('gulp-concat')
 const uglify = require('gulp-uglify')
@@ -17,7 +17,7 @@ function transformacaoJS(cb) {
 }
 
 function fim(cb) {
-    console.log('Fim...')
+    console.log('Fim!!!')
     return cb()
 }
 
